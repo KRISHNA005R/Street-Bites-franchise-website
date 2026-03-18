@@ -146,15 +146,21 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-card/10 py-6">
-          <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
-            <p className="text-sm text-card/50">
-              © {new Date().getFullYear()} Street Bites. All rights reserved.
-            </p>
-            <p className="text-sm text-card/50">
-              Made with passion in India
-            </p>
-          </div>
-        </div>
+  <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
+    <p className="text-sm text-card/50">
+      © {new Date().getFullYear()} Street Bites. All rights reserved.
+    </p>
+
+    <div className="flex flex-col items-center gap-2 sm:items-end">
+      <p className="text-sm text-card/50">
+        Made with passion in India
+      </p>
+      <p className="text-xs text-card/40">
+        Landing page concept created for iFranchise internship evaluation
+      </p>
+    </div>
+  </div>
+</div>
       </div>
     </footer>
   )
